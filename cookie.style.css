@@ -1,0 +1,42 @@
+/* https://github.com/sinasibil */
+/* // https://www.linkedin.com/in/rs-zeinali/ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cookie-container{
+   
+    background: linear-gradient(288deg, rgba(155,108,80,1) 0%, rgba(79,38,38,1) 100%);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+display: flex;
+width: 22rem;
+height: 12rem;
+border-radius:1.2rem ;
+padding: 1rem;
+align-items: center;
+font-family: 'Mochiy Pop P One', sans-serif;
+justify-content: space-between;
+overflow: hidden;
+}
+.cookie-title{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.6rem;
+}
+button{
+    border-style: none;
+    padding: 0.5rem 1rem;
+    color: #4f4f4f;
+    font-family:'Mochiy Pop P One', sans-serif; 
+    font-weight: lighter;
+    border-radius: 0.3rem;
+    margin-top: 1rem  ;
+}
